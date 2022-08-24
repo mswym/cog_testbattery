@@ -1,0 +1,82 @@
+[
+    {
+        "model": "cogapp.CognitiveTask",
+        "fields": {
+            "name": "gonogo",
+            "view_name": "cognitive_task",
+            "instructions_prompt_label": "Start",
+            "template_instruction_path":"instructions/gonogo.html",
+            "template_tutorials_path":"instructions/includes/tutorials_gonogo.html"
+        }
+    },
+    {
+        "model": "cogapp.CognitiveTask",
+        "fields": {
+            "name": "moteval",
+            "view_name": "cognitive_task",
+            "instructions_prompt_label": "Start",
+            "template_instruction_path":"instructions/moteval.html",
+            "template_tutorials_path":"instructions/includes/tutorials_moteval.html"
+        }
+    },
+        {
+        "model": "cogapp.CognitiveTask",
+        "fields": {
+            "name": "loadblindness",
+            "view_name": "cognitive_task",
+            "instructions_prompt_label": "Start",
+            "template_instruction_path":"instructions/loadblindness.html",
+            "template_tutorials_path":"instructions/includes/tutorials_loadblindness.html"
+        }
+    },
+        {
+        "model": "cogapp.CognitiveTask",
+        "fields": {
+            "name": "taskswitch",
+            "view_name": "cognitive_task",
+            "instructions_prompt_label": "Start",
+            "template_instruction_path":"instructions/taskswitch.html",
+            "template_tutorials_path":"instructions/includes/tutorials_taskswitch.html"
+        }
+    },
+    {
+        "model": "cogapp.CognitiveTask",
+        "fields": {
+            "name": "workingmemory",
+            "view_name": "cognitive_task",
+            "instructions_prompt_label": "Start",
+            "template_instruction_path":"instructions/workingmemory.html",
+            "template_tutorials_path":"instructions/includes/tutorials_workingmemory.html"
+        }
+    },
+    {
+        "model": "cogapp.CognitiveTask",
+        "fields": {
+            "name": "enumeration",
+            "view_name": "cognitive_task",
+            "instructions_prompt_label": "Start",
+            "template_instruction_path":"instructions/enumeration.html",
+            "template_tutorials_path":"instructions/includes/tutorials_enumeration.html"
+        }
+    },
+    {
+        "model": "cogapp.CognitiveTask",
+        "fields": {
+            "name": "memorability_1",
+            "view_name": "cognitive_task",
+            "instructions_prompt_label": "Start",
+            "template_instruction_path":"instructions/memorability_1.html",
+            "template_tutorials_path":"instructions/includes/tutorials_memorability_1.html"
+        }
+    },
+        {
+        "model": "cogapp.CognitiveTask",
+        "fields": {
+            "name": "memorability_2",
+            "view_name": "cognitive_task",
+            "instructions_prompt_label": "Start",
+            "template_instruction_path":"instructions/memorability_2.html",
+            "template_tutorials_path":"instructions/includes/tutorials_memorability_2.html"
+        }
+    }
+]

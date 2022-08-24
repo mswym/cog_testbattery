@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect, HttpResponse
 
 
 # Create your views here.
-@never_cache
 def cognitive_assessment_home(request):
     """
     This view is the controller for the all activity. It checks the current status of the pre/post test.
@@ -43,7 +42,6 @@ def cognitive_assessment_home(request):
     else:
         return end_task(participant)
 
-@never_cache
 def cognitive_task(request):
     """
         View used to render all activities in the pre/post assessment
@@ -55,7 +53,7 @@ def cognitive_task(request):
     stack_tasks = participant.extra_json["cognitive_tests_task_stack"]
     current_task = f"{stack_tasks[current_task_idx]}"
     return render(request,
-                  'pre-post-tasks/base_pre_post_app.html',
+                  'base_pre_post_app.html',
                   {"CONTEXT": {"screen_params": screen_params, "task": current_task}})
 
 

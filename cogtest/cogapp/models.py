@@ -1,4 +1,5 @@
 from django.db import models
+import jsonfield
 
 # Create your models here.
 
@@ -17,7 +18,7 @@ class CognitiveTask(models.Model):
 
 
 class CognitiveResult(models.Model):
-    participant = models.ForeignKey(ParticipantProfile, on_delete=models.CASCADE)
+    #participant = models.ForeignKey(ParticipantProfile, on_delete=models.CASCADE)
     cognitive_task = models.ForeignKey(CognitiveTask, on_delete=models.CASCADE)
     idx = models.IntegerField()
     results = jsonfield.JSONField(blank=True)
